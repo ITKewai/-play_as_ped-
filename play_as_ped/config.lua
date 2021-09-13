@@ -5,7 +5,7 @@ Config.Staff_identifier = { -- Should work with any license
     "steam:1100001156c097f", -- Lello
     "steam:110000103c621d3", -- Dom
     "7a94e2fcecd3d42a3244fb5e72a521fc7666eb7f", -- kewai offline
-    "",
+    "steam:110000149ca029a", -- Vuitton
     "",
 }
 
