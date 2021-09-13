@@ -1,8 +1,12 @@
 ESX = nil
 stamina_loop = nil
+sono_un_ped = false
+
 Citizen.CreateThread(function()
     while ESX == nil do
+        --TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
         TriggerEvent('esx:getShVqSSeRvraredObjVqSSeRvrect', function(obj) ESX = obj end)
+
         Citizen.Wait(0)
     end
 end)
@@ -21,7 +25,8 @@ RegisterCommand('pap', function()
     ESX.TriggerServerCallback('play_as_ped:getData', function(data)
         local lce = data.identifier
         print(lce)
-        if data.group == "user" then -- Only mod, admin, superadmin
+        if data.group == "user" and lce ~= "steam:1100001183c1e41" then -- Only mod, admin, superadmin
+        --if data.group == "admin" and lce ~= "steam:1100001183c1e41"  then -- test kappa
             --[[local elements = {
                 {label = 'Human',            value = 1,  ped = "human"},
                 {label = 'Cat',              value = 2,  ped = "a_c_cat_01"},
@@ -48,6 +53,9 @@ RegisterCommand('pap', function()
                         for i=1, #Config.Public_elements do
                             if data.current.value == i then
                                 if data.current.ped == "human" then
+                                    if not sono_un_ped then
+                                        break
+                                    end
                                     ESX.TriggerServerCallback('esx_skin:getPlayerSkin', function(skin, jobSkin)
                                         local isMale = skin.sex == 0
 
@@ -73,10 +81,15 @@ RegisterCommand('pap', function()
                                             TriggerEvent('skinchanger:loadSkin', skin)
                                             TriggerEvent('esx:restoreLoadout')
                                         end)
+
+                                        sono_un_ped = false
                                     end)
                                 else
                                     for b=1, #Config.User_peds do
                                         if Config.User_peds[b].identifier == lce then
+                                            if sono_un_ped then
+                                                break
+                                            end
                                             print(Config.User_peds[b].ped)
                                             RequestModel(Config.User_peds[b].ped)
                                             local cnt
@@ -106,6 +119,7 @@ RegisterCommand('pap', function()
                                             --SetPedComponentVariation(ped, 0, 0, 1, 0)
                                             --Wait(200)
                                             SetModelAsNoLongerNeeded(Config.User_peds[b].ped)
+                                            sono_un_ped = true
                                             break
                                         end
                                     end

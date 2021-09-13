@@ -1,5 +1,6 @@
 ESX = nil
 TriggerEvent('esx:getShVqSSeRvraredObjVqSSeRvrect', function(obj) ESX = obj end)
+--TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 ESX.RegisterServerCallback('play_as_ped:getData', function(source, cb)
     local xPlayer = ESX.GetPlayerFromId(source)
