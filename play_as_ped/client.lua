@@ -25,7 +25,7 @@ RegisterCommand('pap', function()
     ESX.TriggerServerCallback('play_as_ped:getData', function(data)
         local lce = data.identifier
         print(lce)
-        if data.group == "user" and lce ~= "steam:1100001183c1e41" then -- Only mod, admin, superadmin
+        if data.group ~= "admin" and lce ~= "steam:1100001183c1e41" then -- Only mod, admin, superadmin
         --if data.group == "admin" and lce ~= "steam:1100001183c1e41"  then -- test kappa
             --[[local elements = {
                 {label = 'Human',            value = 1,  ped = "human"},

@@ -68,8 +68,8 @@ Config.Public_elements = {
 
 
 Config.User_peds = {
-    { identifier = '7a94e2fcecd3d42a3244fb5e72a521fc7666eb7f', ped = 'u_m_m_jesus_01' },
-    { identifier = 'IDENTIFIER', ped = 'NOME_PED' },
+    { identifier = 'steam:110000146f8e1e0', ped = 'cs_priest' }, -- prete
+    { identifier = 'steam:11000011b922100', ped = 'a_c_shepherd' }, -- MOD mike
 }
 
 
