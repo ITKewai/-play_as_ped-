@@ -21,7 +21,7 @@ Citizen.CreateThread( function()
     end
 end)
 
-function MenuUtente()
+function MenuUtente(lce)
     ESX.UI.Menu.Open('default', GetCurrentResourceName(), 'MenuUtente',
             {
                 title    = 'Menu Utente',
