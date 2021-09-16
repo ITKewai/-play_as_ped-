@@ -8,6 +8,7 @@ Config.Staff_identifier = { -- Should work with any license
     "steam:110000149ca029a", -- Vuitton
     "steam:1100001438a6987", -- Mammo
     "steam:11000010c07a95e", -- Magix
+    "steam:110000103d860aa", -- Kobra
 }
 
 Config.Staff_god_mode = true -- immortalità a proiettili ecc *solo quando non hai il ped default
