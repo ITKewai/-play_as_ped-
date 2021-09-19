@@ -83,6 +83,7 @@ Config.User_peds = {
     { identifier = 'steam:110000143ea321e', ped = 's_m_y_mime' }, -- MOD santanta
     { identifier = 'steam:110000110e27edc', ped = 'u_m_y_juggernaut_01' }, -- MOD teogreg
     { identifier = 'steam:1100001150c5c7d', ped = 'u_m_m_jesus_01' }, -- Focaccina (ped mortale)
+    { identifier = 'steam:110000142f3447c', ped = 's_m_y_casino_01' }, -- MOD basca
 }
 
 
