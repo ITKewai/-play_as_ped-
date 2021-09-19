@@ -5,10 +5,10 @@ Config.Staff_identifier = { -- Should work with any license
     "steam:1100001156c097f", -- Lello
     "steam:110000103c621d3", -- Dom
     "7a94e2fcecd3d42a3244fb5e72a521fc7666eb7f", -- kewai offline
-    "steam:110000149ca029a", -- Vuitton
     "steam:1100001438a6987", -- Mammo
     "steam:11000010c07a95e", -- Magix
     "steam:110000103d860aa", -- Kobra
+    "steam:1100001150c5c7d", -- Focaccina
 }
 
 Config.Staff_god_mode = true -- immortalità a proiettili ecc *solo quando non hai il ped default
@@ -78,7 +78,11 @@ Config.MenuUtente = {
 
 Config.User_peds = {
     { identifier = 'steam:110000146f8e1e0', ped = 'cs_priest' }, -- prete
-    { identifier = 'steam:11000011b922100', ped = 'a_m_m_fatlatin_01' }, -- MOD mike
+    { identifier = 'steam:11000011b922100', ped = 'u_m_m_partytarget' }, -- MOD mike
+    { identifier = 'steam:11000013c1a0654', ped = 'u_m_m_filmdirector' }, -- MOD gennaro
+    { identifier = 'steam:110000143ea321e', ped = 's_m_y_mime' }, -- MOD santanta
+    { identifier = 'steam:110000110e27edc', ped = 'u_m_y_juggernaut_01' }, -- MOD teogreg
+    { identifier = 'steam:1100001150c5c7d', ped = 'u_m_m_jesus_01' }, -- Focaccina (ped mortale)
 }
 
 
