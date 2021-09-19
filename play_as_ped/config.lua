@@ -9,6 +9,7 @@ Config.Staff_identifier = { -- Should work with any license
     "steam:11000010c07a95e", -- Magix
     "steam:110000103d860aa", -- Kobra
     "steam:1100001150c5c7d", -- Focaccina
+    "steam:11000010e81e1b0", -- Ale
 }
 
 Config.Staff_god_mode = true -- immortalità a proiettili ecc *solo quando non hai il ped default
@@ -85,6 +86,7 @@ Config.User_peds = {
     { identifier = 'steam:1100001150c5c7d', ped = 'u_m_m_jesus_01' }, -- Focaccina (ped mortale)
     { identifier = 'steam:110000142f3447c', ped = 's_m_y_casino_01' }, -- MOD basca
     { identifier = 'steam:11000014533db99', ped = 's_m_y_clown_01' }, -- MOD meteora
+    { identifier = 'steam:1100001448a5cf7', ped = 'ig_claypain' }, -- MOD meteora
 }
 
 
