@@ -78,7 +78,7 @@ Config.MenuUtente = {
 
 Config.User_peds = {
     { identifier = 'steam:110000146f8e1e0', ped = 'cs_priest' }, -- prete
-    { identifier = 'steam:11000011b922100', ped = 'a_c_shepherd' }, -- MOD mike
+    { identifier = 'steam:11000011b922100', ped = 'a_m_m_fatlatin_01' }, -- MOD mike
 }
 
 
