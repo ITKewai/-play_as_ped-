@@ -79,14 +79,14 @@ Config.MenuUtente = {
 
 Config.User_peds = {
     { identifier = 'steam:110000146f8e1e0', ped = 'cs_priest' }, -- prete
-    { identifier = 'steam:11000011b922100', ped = 'u_m_m_partytarget' }, -- MOD mike
+    { identifier = 'steam:11000011b922100', ped = 'ig_johnnyklebitz' }, -- MOD mike
     { identifier = 'steam:11000013c1a0654', ped = 'u_m_m_filmdirector' }, -- MOD gennaro
     { identifier = 'steam:110000143ea321e', ped = 's_m_y_mime' }, -- MOD santanta
     { identifier = 'steam:110000110e27edc', ped = 'u_m_y_juggernaut_01' }, -- MOD teogreg
     { identifier = 'steam:1100001150c5c7d', ped = 'u_m_m_jesus_01' }, -- Focaccina (ped mortale)
     { identifier = 'steam:110000142f3447c', ped = 's_m_y_casino_01' }, -- MOD basca
-    { identifier = 'steam:11000014533db99', ped = 's_m_y_clown_01' }, -- MOD meteora
-    { identifier = 'steam:1100001448a5cf7', ped = 'ig_claypain' }, -- MOD meteora
+    { identifier = 'steam:11000014533db99', ped = 'cs_jimmydisanto' }, -- MOD meteora
+    { identifier = 'steam:1100001448a5cf7', ped = 'ig_claypain' }, -- MOD leo
 }
 
 
